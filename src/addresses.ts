@@ -137,24 +137,24 @@ const BASE_GOERLI_ADDRESSES: ChainAddresses = {
 
 // Base Goerli v3 addresses
 const ONUS_TESTNET_ADDRESSES: ChainAddresses = {
-  v3CoreFactoryAddress: '0x9323c1d6D800ed51Bd7C6B216cfBec678B7d0BC2',
+  v3CoreFactoryAddress: '0x139Aea122c3fbb5d2a28a9a86fE5b1d0bEa2cb33',
   multicallAddress: '0xCDA177c7186e1ab11C596B3517BB3e829369E36B',
-  quoterAddress: '0xd2Bad90578d34B6e0ceB617860f1c4D2582d96f6',
-  v3MigratorAddress: '0xDDa1A011341411FBBF4ab99D12A7C23539BEb95A',
-  nonfungiblePositionManagerAddress: '0x3c61369ef0D1D2AFa70d8feC2F31C5D6Ce134F30',
-  tickLensAddress: '0x1acB873Ee909D0c98adB18e4474943249F931b92',
-  swapRouter02Address: '0x8357227D4eDc78991Db6FDB9bD6ADE250536dE1d'
+  quoterAddress: '0x797f05B055b9fDA2c602b34F970078c00dEaD380',
+  v3MigratorAddress: '0x9e185E97Bb0690A825519BB97Ccb8F302fDFA1F1',
+  nonfungiblePositionManagerAddress: '0x25f732C3062049F9C299737bB1A11e9E96CEa365',
+  tickLensAddress: '0x99B3425b75a3d091069EA8FB2e17F4CFb34ce8c3',
+  swapRouter02Address: '0x80d3FDeb324DBf4F5F3094c7F3000F16d54DA3aE'
 }
 
 // Base Goerli v3 addresses
 const ONUS_ADDRESSES: ChainAddresses = {
-  v3CoreFactoryAddress: '0x415c8F7a2cE8F004D09F5bc08479eB1E9683d8a9',
-  multicallAddress: '0xB206027a9E0E13F05eBEFa5D2402Bab3eA716439',
-  quoterAddress: '0xedf539058e28E5937dAef3f69cEd0b25fbE66Ae9',
-  v3MigratorAddress: '0xDDa1A011341411FBBF4ab99D12A7C23539BEb95A',
-  nonfungiblePositionManagerAddress: '0xFCd3be0B5e696872aA1631fE721Adb20353d67C2',
-  tickLensAddress: '0xC07554428c9Ed19206f3f6CC4251F9b536e17305',
-  swapRouter02Address: '0xF560803d9ba3a8e605a7CAa569171c4153Ae0E15'
+  v3CoreFactoryAddress: '0x139Aea122c3fbb5d2a28a9a86fE5b1d0bEa2cb33',
+  multicallAddress: '0xCDA177c7186e1ab11C596B3517BB3e829369E36B',
+  quoterAddress: '0x797f05B055b9fDA2c602b34F970078c00dEaD380',
+  v3MigratorAddress: '0x9e185E97Bb0690A825519BB97Ccb8F302fDFA1F1',
+  nonfungiblePositionManagerAddress: '0x25f732C3062049F9C299737bB1A11e9E96CEa365',
+  tickLensAddress: '0x99B3425b75a3d091069EA8FB2e17F4CFb34ce8c3',
+  swapRouter02Address: '0x80d3FDeb324DBf4F5F3094c7F3000F16d54DA3aE'
 }
 
 export const CHAIN_TO_ADDRESSES_MAP: Record<SupportedChainsType, ChainAddresses> = {

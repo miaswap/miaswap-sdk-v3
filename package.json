@@ -1,14 +1,17 @@
 {
   "name": "@miaswap/sdk-core",
   "license": "MIT",
-  "version": "4.0.3",
+  "version": "4.0.31",
   "description": "⚒️ An SDK for building applications on top of Miaswap V3",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/miaswap/miaswap-sdk-v3",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miaswap/miaswap-sdk-v3.git"
+  },
   "keywords": [
     "miaswap",
     "onuschain"
@@ -54,5 +57,10 @@
     "printWidth": 120,
     "semi": false,
     "singleQuote": true
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/miaswap/miaswap-sdk-v3/issues"
+  },
+  "homepage": "https://github.com/miaswap/miaswap-sdk-v3#readme",
+  "author": "miaswap-dev"
 }
