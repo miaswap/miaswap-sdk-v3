@@ -2,11 +2,11 @@ import JSBI from 'jsbi'
 
 // exports for external consumption
 export type BigintIsh = JSBI | string | number
-export const FACTORY_ADDRESS = '0x1F98431c8aD98523631AE4a59f267346ea31F984'
+export const FACTORY_ADDRESS = '0x139Aea122c3fbb5d2a28a9a86fE5b1d0bEa2cb33'
 
 export const ADDRESS_ZERO = '0x0000000000000000000000000000000000000000'
 
-export const POOL_INIT_CODE_HASH = '0xe34f199b19b2b4f47f68442619d555527d244f78a3297ea89325f843f87b8b54'
+export const POOL_INIT_CODE_HASH = '0x2389fcb4e67dbd817f2a6dc070fd4b32f51bbddd480cf3d1ba446fea1a475b05'
 
 export enum TradeType {
   EXACT_INPUT,
