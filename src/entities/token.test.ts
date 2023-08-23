@@ -4,7 +4,6 @@ describe('Token', () => {
   const ADDRESS_ONE = '0x0000000000000000000000000000000000000001'
   const ADDRESS_TWO = '0x0000000000000000000000000000000000000002'
   const DAI_MAINNET = '0x6B175474E89094C44Da98b954EedeAC495271d0F'
-  // const BTC_ONUS = '0x0EFa4e3943bE21E5664645fe20D09893466BDf9c'
 
   describe('#constructor', () => {
     it('fails with invalid address', () => {

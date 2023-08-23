@@ -2,7 +2,7 @@ import JSBI from 'jsbi'
 
 // exports for external consumption
 export type BigintIsh = JSBI | string | number
-export const FACTORY_ADDRESS = '0x139Aea122c3fbb5d2a28a9a86fE5b1d0bEa2cb33'
+export const FACTORY_ADDRESS = '0x08B1BFd421768494AA8a5DfB33Fa8ecBb7ad6774'
 
 export const ADDRESS_ZERO = '0x0000000000000000000000000000000000000000'
 
