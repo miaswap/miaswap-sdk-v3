@@ -7,3 +7,7 @@
 
 This code is shared across Uniswap TypeScript SDKs.
 Folk From Uniswap Sdk core and sdk V3
+
+```
+npm publish
+```
